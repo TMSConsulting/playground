@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-username = 'rick.segal@gmail.com'
-password = 'bvxhafdudnxluotm'
+username = ''
+password = ''
 
 
 def send_mail(text='Email body',subject='Hello World', from_email='Rick <rick.segal@gmail.com>', to_emails=None, html=None):
